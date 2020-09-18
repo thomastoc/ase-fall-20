@@ -12,7 +12,7 @@ def divide(m, n):
     tempM = abs(m)
     tempN = abs(n)
     divRes = 0
-    while(tempM > 0):
+    while(tempM >= tempN):
         tempM -= tempN
         divRes += 1
 
